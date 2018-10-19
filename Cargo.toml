@@ -1,0 +1,9 @@
+[package]
+name = "echo-server"
+version = "0.1.0"
+authors = ["Jacob Fenton <jacob.d.fenton@gmail.com>"]
+
+[dependencies]
+actix-web = "0.7"
+serde_json = "*"
+env_logger = "*"
